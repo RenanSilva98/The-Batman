@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transition: 0.5s;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+li:hover {
+    color: #d21617;
+}
+
+#logo {
+    width: 150px;
+    height: 90px;
+}
+
+.actor-cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.cards-content {
+    width: 70%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+.card {
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.banner-1 {
+    background-image: url('https://cdn.ome.lt/nQvL7VGZze-eWKVIIh4QSBhSKuM=/1200x630/smart/extras/conteudos/the-batman-tem-cena-pos-creditos.jpg');
+
+}
+
+.banner-2 {
+    background-image: url('https://otriunvirato.com.br/wp-content/uploads/2022/03/FMzlyyWWUAEuOT8.jpg');
+}
+
+.banner-3 {
+    background-image: url('https://universoheroico.com.br/wp-content/uploads/2022/03/Imagme-do-filme-Batman.jpg');
+}
+
+.banner-4 {
+    background-image: url('https://cinemaeafins.com.br/wp-content/uploads/2021/10/The-Batman-Filme-2022.jpg');
+}
+
+.banner-5 {
+    background-image: url('https://img.olhardigital.com.br/wp-content/uploads/2021/12/9955266_x720.png');
+}
+
+.banner-6 {
+    background-image: url('https://observatoriodocinema.uol.com.br/wp-content/uploads/2022/03/bruce-1.jpg');
+}
+
+.banner-7 {
+    background-image: url('https://midias.correiobraziliense.com.br/_midias/jpg/2022/01/20/675x450/1_26157815-7354644.jpg?20220120100834?20220120100834');
+}
+
+.banner-8 {
+    background-image: url('https://www.koimoi.com/wp-content/new-galleries/2021/05/robert-pattinson-wants-the-batman-to-have-his-multiple-love-interests-001.jpg');
+}
+
+.banner-9 {
+    background-image: url('https://veja.abril.com.br/wp-content/uploads/2022/03/Zoe-Kravitz.jpg?quality=90&strip=info&w=900&h=600&crop=1');
+}
+
+.banner-10 {
+    background-image: url('https://midias.correiobraziliense.com.br/_midias/jpg/2022/02/18/675x450/1_batman_zoe_kravitz_mulher_gato-7471457.jpg?20220218182245?20220218182245');
+}
+
+.banner-11 {
+    background-image: url('https://cdn.mos.cms.futurecdn.net/4Z6yxVu5LGNyQ7bfstbsg8.png')
+}
+
+.banner-12 {
+    background-image: url('https://www.slashfilm.com/img/gallery/john-turturro-is-the-secret-weapon-of-the-batman/l-intro-1646754501.jpg');
+}
+
+.banner-13 {
+    background-image: url('https://rollingstone.uol.com.br/media/uploads/andy_serkis_em_the_batman_foto_divulgacao__warner_bros..jpg');
+}
+
+.banner-14 {
+    background-image: url('https://sm.ign.com/ign_pt/news/t/the-pengui/the-penguin-colin-farrell-reveals-how-the-batman-spinoff-ope_u78q.jpg');
+}
+
+.banner-15 {
+    background-image: url('https://img.olhardigital.com.br/wp-content/uploads/2022/02/Charada-em-The-Batman.jpg');
+}
+
+footer {
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span {
+    color: #fff;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.footer-navigation {
+    display: none;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media(max-width: 768px){
+    .footer-navigation {
+        display: block;
+    }
+
+    nav {
+        display: none;
+    }
+}

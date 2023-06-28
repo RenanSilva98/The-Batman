@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transition: 0.5s;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+li:hover {
+    color: #d21617;
+}
+
+#logo {
+    width: 150px;
+    height: 90px;
+}
+
+h1 {
+    color: white;
+    font-family: 'kdam thmor Pro', sans-serif;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.principal {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    height: 90%;
+    margin-top: 30px;
+    margin-left: 70px;
+    padding-left: 70px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.blocos {
+    width: 90%;
+    height: 90%;
+    background-color: rgba(205, 205, 205, 0);
+    border-radius: 10px;
+}
+
+.comentario-bloco {
+    display: grid;
+    width: 80%;
+    height: 80%;
+    margin: 20px;
+    margin-right: 30%;
+    margin-left: 110px;
+    background-color: black;
+    border-radius: 10px;
+    border: 3px solid;
+}
+
+.comentário {
+    width: 50%;
+    color: white;
+    margin-left: 20%;
+    font-family: 'kdam thmor Pro', sans-serif;
+    margin-top: 20px;
+    margin-left: 20%;
+    margin-bottom: 20px;
+}
+
+h2 {
+    width: 200px;
+    color: white;
+    font-family: 'kdam thmor Pro', sans-serif;
+    margin-top: 20px;
+    margin-left: 20%;
+}
+
+footer {
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span {
+    color: #fff;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.footer-navigation {
+    display: none;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media(max-width: 768px){
+    .footer-navigation {
+        display: block;
+    }
+
+    nav {
+        display: none;
+    }
+}
